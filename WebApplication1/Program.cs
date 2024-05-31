@@ -35,7 +35,7 @@ public class Startup
                     request.Headers.Add("Connection", "keep-alive");
                     request.Headers.Add("Referer", "https://discord.com/channels/@me/1245967394761871381");
                     request.Headers.Add("Authorization",
-                        "MTIyMjI0MjY1NDg2ODIwOTc3NQ.Gk6XWw.2H3z83H61Ia0Tn9lvlQ5bmvs4_NME9yWmESUAk");
+                        "MTIyMjI0MjY1NDg2ODIwOTc3NQ.Gk6XWw.2H3z83H61Ia0Tn9lvlQ5bmvs4_NME9yWmESUAk");//вторым значением укажите свой токен
                     request.Headers.Add("Cookie",
                         "__cfruid=6e665a5ac458e0ecc81134985c607b05cf39d545-1717133465; __dcfduid=f9c210061f0e11ef85962222dbdcba35; __sdcfduid=f9c210061f0e11ef85962222dbdcba3559d3f61a1e061afcf7ea120a5dfa93ff9afa8d86eafc62db5aed9fdbff5ea159; _cfuvid=2xH1Mz7lg1gw04lHpICGdG3ta4TobHDnSiLBrWxGpcA-1717133465264-0.0.1.1-604800000");
                     var response = await client.SendAsync(request);
